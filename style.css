@@ -1,0 +1,139 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Header-section */
+header{
+    background-color: #2c3e50;
+}
+.header-logo{}
+.header-logo img{
+    width: 100px;
+}
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0;
+    list-style: none;
+}
+.primary-menu ul li{
+    display: inline-block;
+    border-right: 1px solid #ddd;
+}
+.primary-menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 30px;
+	line-height: 63px;
+}
+
+/* banner-section */
+
+.banner{
+    background: url(img/unnamed.jpg) no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner h1 {
+	background: linear-gradient(to right,rgba(52, 152, 219, 0.3),rgba(52, 152, 219, .8));
+	width: 40%;
+	margin: auto;
+	border-radius: 10%;
+	box-shadow: 0px 0px 10px -2px #000;
+}
+.banner h2{
+    background: linear-gradient(to right,rgba(44, 62, 80, 0.4),rgba(44, 62, 80, 0.8));
+    width: 55%;
+    margin: 3% auto 0;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px -2px #000;
+}
+
+/* about-section */
+
+.about{
+    background-color: #ecf0f1;
+}
+.about h1{}
+.about p{}
+
+/* service section */
+
+.service{
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+.service-item{}
+.service-item span{
+    display: inline-block;
+    margin: auto;
+    font-size: 2em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    color: aqua;
+    background-color: #2c3e50;
+    margin-bottom: 20px;
+}
+.service-item h2{}
+.service-item p{}
+
+/* product-section */
+.product-section{
+    background-color: #ecf0f1;
+    padding: 70px 0;
+}
+.notice-side h2{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.notice-side ul{
+    list-style: none;
+}
+.notice-side ul li{
+    display: block;
+    border: 2px groove aqua;
+    margin-bottom: 11px;
+    padding: 15px 0;
+    font-size: 1.2em;
+}
+.notice-side ul li::before{
+    content: "\f7d4";
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 300;
+    color: crimson;
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+/* contact-section */
+
+.contact{
+    padding: 70px 0;
+}
+
+/* footer-section */
+
+footer{}
+footer p {
+	margin-bottom: 0;
+	line-height: 60px;
+}
+.footer-menu ul{
+    list-style: none;
+    display: block;
+    margin-bottom: 0;
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-menu ul li a{
+    color: #fff;
+    font-size: 2em;
+}
